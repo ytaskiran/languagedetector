@@ -13,4 +13,6 @@ app = Flask(__name__)
 @app.route('/',methods=[ 'POST'])
 def hello_world():
     return detectLang(request.json["text"])
-
+ 
+if __name__ = "__main__"
+    app.run()
